@@ -4,26 +4,26 @@ Gabriel Martins Falanga - Turma 1TDSPM - RM555061
 Caio Henrique da Silva Carnetti - Turma 1TDSPH - RM554600
 
 Telegram:
-Nome: bot_santastico
-Token: 7132055071:AAE6ypae8p1ATR2xP7QrZrlFTEngQeAZ9-A
+Nome: 
+Token: 
 
 
 Watson:
-Assistant ID:e9df4817-2e9d-4403-88a9-df8590f458ea
+Assistant ID:
 
-Assistant URL: https://api.us-south.assistant.watson.cloud.ibm.com/instances/e8d9a3de-8ecc-44ca-9bc3-901a1773c5c7
+Assistant URL: 
 
-API Key: hOmvpocXgMqbcEbC5ShJ7F__rmOk31LJ-gjvWOcAs_24
+API Key: 
 
 STT:
-API key: W97Ge5FbPpL_M4FttR6WyxxiPADwwLpR2g9RKphO5see
+API key: 
 
-URL: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/70dc23d6-09e5-42f0-9f77-5f9233c17992
+URL: 
 
 TTS:
-API: Nw88LRlOU5bv2tw4pfe3YXcZHYuBHOhmmvb24oxEq20L
+API: 
 
-URL: https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/f89f97bb-2330-4f73-9e3d-3666770ed800
+URL: 
 
-Link do vídeo: https://www.youtube.com/watch?v=Lrixm-PiUxE
+Link do vídeo de apresentação do chatbot: https://www.youtube.com/watch?v=Lrixm-PiUxE
 
