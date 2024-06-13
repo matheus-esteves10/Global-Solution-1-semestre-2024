@@ -1,0 +1,27 @@
+Participantes:
+Matheus Esteves Marques da Silva - Turma 1TDSPJ - RM554769
+Gabriel Martins Falanga - Turma 1TDSPM - RM555061
+Caio Henrique da Silva Carnetti - Turma 1TDSPH - RM554600
+
+Link do repositório no github: https://github.com/matheus-esteves10/gs-frontend
+
+
+Para ter acesso a página de utilização é necessário entrar com o login. Segue a lista de usuários possíveis:
+
+const listaUsuarios = [
+    {
+      cpf: "12345678900",
+      email: "usuario1@email.com",
+      senha: "senha123"
+    },
+    {
+      cpf: "11122233344",
+      email: "usuario2@email.com",
+      senha: "senha456"
+    },
+    {
+      cpf: "22233344455",
+      email: "usuario3@email.com",
+      senha: "senha789"
+    }
+];

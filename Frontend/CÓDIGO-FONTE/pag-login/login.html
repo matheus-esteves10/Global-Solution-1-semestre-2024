@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logo-vp-innovation-icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login VP</title>
+    <script src="./login.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box-login" id="idBoxLogin">
+            <h1 class="titulo">LOGIN</h1>
+            <p>Login e/ou Senha inválido(s).</p>
+            <form id="form-login" action="../pag-chamado/chamado.html" method="get">
+                <input type="text" name="txtLogin" id="idLogin" placeholder="CPF ou E-mail" autocomplete="off" autofocus>
+                <input type="password" name="txtSenha" id="idSenha" placeholder="Senha">
+                <button type="submit" id="form-btn">Entrar</button>
+                <div class="divisor"></div>
+                <a href="../pag-cadastro/cadastro.html" title="Criar uma conta">Criar uma conta</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1642 @@
+{
+  "intents": [
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Adorei"
+        },
+        {
+          "text": "Amei"
+        },
+        {
+          "text": "Grata"
+        },
+        {
+          "text": "Grato"
+        },
+        {
+          "text": "Muito obrigada"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Ótimo"
+        },
+        {
+          "text": "Por hoje é isso"
+        },
+        {
+          "text": "Por hoje é só"
+        },
+        {
+          "text": "Só isso"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Valeu"
+        }
+      ],
+      "description": "Intenção criada para identificar um agradecimento do usuário"
+    },
+    {
+      "intent": "animal-perigo",
+      "examples": [
+        {
+          "text": "achei um animal ferido"
+        },
+        {
+          "text": "animal precisando de ajuda"
+        },
+        {
+          "text": "animal precisando de resgate"
+        },
+        {
+          "text": "encontrei um animal machucado"
+        },
+        {
+          "text": "encontrei um bicho precisando de ajuda"
+        },
+        {
+          "text": "me ajude a resgatar um animal"
+        },
+        {
+          "text": "preciso de ajuda para um resgate"
+        },
+        {
+          "text": "preciso que salvem um animal"
+        },
+        {
+          "text": "resgatar animal"
+        },
+        {
+          "text": "tem um animal ferido"
+        },
+        {
+          "text": "tem um bicho ferido"
+        },
+        {
+          "text": "vi um animal machucado"
+        }
+      ],
+      "description": "Intenção criada para notificar um animal em necessidade de resgate"
+    },
+    {
+      "intent": "boas-ações",
+      "examples": [
+        {
+          "text": "Como ajudar a biodiversidade marinha"
+        },
+        {
+          "text": "como ajudar as cidades litoraneas"
+        },
+        {
+          "text": "como ajudar o ecossistema marinho"
+        },
+        {
+          "text": "Como devo descartar o lixo?"
+        },
+        {
+          "text": "Como posso ajudar o meio ambiente?"
+        },
+        {
+          "text": "Como posso ajudar os oceanos"
+        },
+        {
+          "text": "Me diga boas ações para ajudar o meio ambiente"
+        },
+        {
+          "text": "Métodos de ajudar o meio ambiente"
+        },
+        {
+          "text": "Onde jogo o óleo de cozinha?"
+        },
+        {
+          "text": "O que devo evitar para ajudar o meio ambiente?"
+        },
+        {
+          "text": "O que posso fazer para ajudar o meio ambiente?"
+        },
+        {
+          "text": "Quais materiais devo evitar para ajudar o meio ambinte?"
+        },
+        {
+          "text": "Quais são as formas de ajudar o meio ambiente?"
+        },
+        {
+          "text": "Qual deve ser o descarte adequado dos materiais reciclaveis?"
+        },
+        {
+          "text": "Que atitudes ajudam o meio ambiente?"
+        },
+        {
+          "text": "Quero ajudar na conservação do meio ambiente, como posso fazer isso?"
+        }
+      ],
+      "description": "Intenção criada para identificar dúvidas sobre boas ações em relação aos problemas no meio ambiente."
+    },
+    {
+      "intent": "descarte-inadequado",
+      "examples": [
+        {
+          "text": "Alguém está jogando lixo em um rio próximo à minha casa."
+        },
+        {
+          "text": "como posso denunciar descartes inadequados de lixo?"
+        },
+        {
+          "text": "encontrei um acúmulo de lixo"
+        },
+        {
+          "text": "estão jogando lixo em lugar inadequado"
+        },
+        {
+          "text": "estou em um lugar que o lixo é descartado de maneira inadequada"
+        },
+        {
+          "text": "Estou na praia e vi lixo sendo despejado no mar"
+        },
+        {
+          "text": "Estou no mar aberto e um barco esta fazendo descarte de lixo inadequado"
+        },
+        {
+          "text": "estou querendo fazer uma denuncia sobre descarte de lixo"
+        },
+        {
+          "text": "Gostaria de denunciar um caso de descarte inadequado de lixo."
+        },
+        {
+          "text": "gostaria de denunciar um descarte inadequado de lixo"
+        },
+        {
+          "text": "Gostaria de saber como posso denunciar casos de descarte irregular de lixo em geral."
+        },
+        {
+          "text": "quero reportar um descarte de lixo próximo a minha casa"
+        },
+        {
+          "text": "uma pessoa esta jogando lixo no mar"
+        },
+        {
+          "text": "um barco esta jogando lixo na agua"
+        },
+        {
+          "text": "Vi um caminhão despejando lixo dentro do mar"
+        }
+      ],
+      "description": "Intenção criada para notificar descarte inadequado de lixo"
+    },
+    {
+      "intent": "especies-extinção",
+      "examples": [
+        {
+          "text": "Cite animais marinhos em extinção"
+        },
+        {
+          "text": "Existem espécies marinhas em todas as regiões do oceano que correm risco de desaparecer?"
+        },
+        {
+          "text": "Gostaria de saber as espécies que correm risco de serem extintas"
+        },
+        {
+          "text": "Me diga animais marinhos que correm risco de serem extintos"
+        },
+        {
+          "text": "Me diga animais que correm risco de extinção"
+        },
+        {
+          "text": "Quais animais marinhos correm risco de serem extintos?"
+        },
+        {
+          "text": "Quais espécies marinhas estão com risco de extinção?"
+        },
+        {
+          "text": "Quantas espécies marinhas estima-se que estejam em risco de extinção globalmente?"
+        },
+        {
+          "text": "Quero saber animais que podem ser extintos"
+        },
+        {
+          "text": "Quero saber dos animais marinhos com perigo de extinção"
+        },
+        {
+          "text": "São muitos animais marinhos com risco de extinção?"
+        },
+        {
+          "text": "Você pode citar alguns exemplos de animais marinhos que estão em perigo de extinção?"
+        }
+      ],
+      "description": "Intenção criada para identificar dúvidas a respeito de espécies em extinção."
+    },
+    {
+      "intent": "funcionamento",
+      "examples": [
+        {
+          "text": "Como a empresa atua?"
+        },
+        {
+          "text": "Como a empresa funciona?"
+        },
+        {
+          "text": "Como funciona?"
+        },
+        {
+          "text": "Como funciona a VP Innovation"
+        },
+        {
+          "text": "Como funciona o serviço?"
+        },
+        {
+          "text": "Fala mais sobre a VP Innovation"
+        },
+        {
+          "text": "Fale mais da empresa"
+        },
+        {
+          "text": "Gostaria de saber mais sobre a empresa"
+        },
+        {
+          "text": "Gostaria de saber mais sobre a VP Innovation"
+        },
+        {
+          "text": "Me diga mais sobre a empresa"
+        },
+        {
+          "text": "Me diga mais sobre o funcionamento da empresa"
+        },
+        {
+          "text": "Me explique mais sobre a empresa"
+        },
+        {
+          "text": "Me explique mais sobre a VP Innovation"
+        },
+        {
+          "text": "Para que serve a VP Innovation?"
+        },
+        {
+          "text": "Qual o serviço oferecido?"
+        },
+        {
+          "text": "Qual serviço vocês oferecem?"
+        },
+        {
+          "text": "Queria saber mais da empresa"
+        },
+        {
+          "text": "Quero saber mais sobre a VP Innovation"
+        },
+        {
+          "text": "Quero saber sobre o funcionamento da empresa"
+        }
+      ],
+      "description": "Intenção criada para identificar o funcionamento da empresa."
+    },
+    {
+      "intent": "mudar-modo",
+      "examples": [
+        {
+          "text": "alterar comportamento"
+        },
+        {
+          "text": "alternar modo de resposta"
+        },
+        {
+          "text": "me responda de outra maneira"
+        },
+        {
+          "text": "mudar modo"
+        },
+        {
+          "text": "mudar modo de resposta"
+        },
+        {
+          "text": "quero alternar o modo de resposta"
+        },
+        {
+          "text": "quero dizer o comportamento do atendimento"
+        },
+        {
+          "text": "quero especificar o modo de atendimento"
+        },
+        {
+          "text": "Quero mudar o tipo de resposta"
+        },
+        {
+          "text": "quero ser atendido de outra forma"
+        },
+        {
+          "text": "quero trocar o jeito que me responde"
+        },
+        {
+          "text": "selecionar modo de resposta"
+        },
+        {
+          "text": "trocar modo de resposta"
+        },
+        {
+          "text": "troque o modo de resposta"
+        }
+      ],
+      "description": "Intenção criada para mudar o modo de atendimento"
+    },
+    {
+      "intent": "pesca-ilegal",
+      "examples": [
+        {
+          "text": "desejo denunciar uma pesca proibida"
+        },
+        {
+          "text": "encontrei gente pescando onde é proibido"
+        },
+        {
+          "text": "encontrei uns caras praticando pesca ilegal"
+        },
+        {
+          "text": "estão pescando em um lugar inapropriado"
+        },
+        {
+          "text": "estão pescando ilegalmente"
+        },
+        {
+          "text": "estão praticando pesca ilegal"
+        },
+        {
+          "text": "estou no mar e tem um barco pescando espécies de peixe não permitidas"
+        },
+        {
+          "text": "gostaria de notificar uma pesca feita ilegalmente"
+        },
+        {
+          "text": "notificar pesca ilegal"
+        },
+        {
+          "text": "pesca de espécies exoticas"
+        },
+        {
+          "text": "pesca de especies nao permitidas"
+        },
+        {
+          "text": "pesca em ambiente inadequado"
+        },
+        {
+          "text": "pesca em lugar nao permitido"
+        },
+        {
+          "text": "pesca ilegal"
+        },
+        {
+          "text": "pratica de pesca ilegal"
+        },
+        {
+          "text": "quero denunciar uma pesca ilegal"
+        },
+        {
+          "text": "vi gente pescando ilegalmente"
+        }
+      ],
+      "description": "Intenção criada para notificar pescas ilegais"
+    },
+    {
+      "intent": "problemas-ambientais",
+      "examples": [
+        {
+          "text": "Como a biodiversidade dos oceanos foi tão prejudicada por ações dos humanos?"
+        },
+        {
+          "text": "Como a biodiversidade maritima foi tão prejudicada por ações dos humanos?"
+        },
+        {
+          "text": "Como a pesca predatória, a caça de animais marinhos e a exploração de recursos minerais prejudicam a biodiversidade marinha?"
+        },
+        {
+          "text": "Como a poluição por lixo, esgoto e produtos químicos afeta a qualidade da água e a vida marinha?"
+        },
+        {
+          "text": "Como diminuir a poluição maritima?"
+        },
+        {
+          "text": "Como o ser humano afeta a biodiversidade maritima?"
+        },
+        {
+          "text": "De que forma as atividades humanas contribuem para a maioria dos problemas nos rios, mares e oceanos?"
+        },
+        {
+          "text": "Gostaria de saber sobre os problemas na biodiversidade dos oceanos"
+        },
+        {
+          "text": "Gostaria de saber sobre os problemas na biodiversidade maritima"
+        },
+        {
+          "text": "Me diga problemas da biodiversidade dos oceanos causados pelos seres humanos"
+        },
+        {
+          "text": "Me diga problemas que o ser humano causa na biodiversidade maritima"
+        },
+        {
+          "text": "O que causa a extinção de espécies marinhas e a perda de biodiversidade nos oceanos?"
+        },
+        {
+          "text": "Quais são os impactos da pesca ilegal?"
+        },
+        {
+          "text": "Quais são os impactos do descarte inadequado de lixo?"
+        },
+        {
+          "text": "Quais são os principais problemas nos rios, mares e oceanos?"
+        },
+        {
+          "text": "Quais são os problemas mais urgentes que afetam os rios, mares e oceanos atualmente?"
+        }
+      ],
+      "description": "Intenção criada para identificar dúvidas a respeito de problemas dos rios, mares e oceanos."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "avaliação_serviço",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "um"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": [
+            "dez"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "dois"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "três"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "quatro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "cinco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": [
+            "seis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": [
+            "sete"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": [
+            "oito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9",
+          "synonyms": [
+            "nove"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alagoas",
+          "synonyms": [
+            "AL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bahia",
+          "synonyms": [
+            "BA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ceará",
+          "synonyms": [
+            "CE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Espirito Santo",
+          "synonyms": [
+            "ES"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maranhão",
+          "synonyms": [
+            "MA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pará",
+          "synonyms": [
+            "PA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paraíba",
+          "synonyms": [
+            "PB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paraná",
+          "synonyms": [
+            "PR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pernambuco",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Piauí",
+          "synonyms": [
+            "PI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "RJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio Grande do Norte",
+          "synonyms": [
+            "RN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio Grande do Sul",
+          "synonyms": [
+            "RS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Santa Catarina",
+          "synonyms": [
+            "SC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "São Paulo",
+          "synonyms": [
+            "SP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sergipe",
+          "synonyms": [
+            "SE"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "media-idade-usuarios",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "-18",
+          "synonyms": [
+            "0",
+            "1",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "18-24",
+          "synonyms": [
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "24-36",
+          "synonyms": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "36-48",
+          "synonyms": [
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "48-60",
+          "synonyms": [
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "+60",
+          "synonyms": [
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "n",
+            "nn",
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "s",
+            "ss",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "tipo_resposta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "audio",
+          "synonyms": [
+            "áudio",
+            "mensagem de voz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "padrão",
+          "synonyms": [
+            "comum",
+            "normal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "texto",
+          "synonyms": [
+            "escreva",
+            "mensagem de texto",
+            "mensagem escrita"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seja bem vindo ao VP bot, seu melhor amigo sustentável pronto para tirar suas dúvidas a respeito do meio ambiente! Digite qual é sua dúvida ou denúncia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poderia reformular? Não compreendi."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1716987674071",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1717587940180",
+      "event_name": "input",
+      "dialog_node": "handler_7_1717587940193"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1717587940180",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1717587940193",
+      "previous_sibling": "handler_7_1717587940193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado pela avaliaçao, atendimento encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716987674071",
+      "conditions": "@avaliação_serviço",
+      "dialog_node": "node_10_1716987701139"
+    },
+    {
+      "type": "standard",
+      "title": "Alterar modo de atendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certamente.  Qual modo de resposta você deseja: padrão, áudio ou texto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#mudar-modo",
+      "dialog_node": "node_10_1717586747366",
+      "previous_sibling": "node_4_1717587641788"
+    },
+    {
+      "type": "standard",
+      "title": "Dúvida: Problemas ambientais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A poluição dos mares, rios e oceanos é um problema crítico que coloca em risco a vida marinha e a saúde do planeta. Causada por diversos fatores como esgoto, lixo, produtos químicos e petróleo, essa poluição mata animais, destrói habitats e contamina a água.\nÉ urgente tomar medidas para proteger nossos oceanos: reduzir o uso de plástico, descartar o lixo corretamente, consumir produtos sustentáveis e apoiar ONGs que trabalham para a preservação do meio ambiente. Há alguma outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#problemas-ambientais",
+      "dialog_node": "node_1_1716985884058",
+      "previous_sibling": "node_9_1717424864705"
+    },
+    {
+      "type": "standard",
+      "title": "@sim-nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, espero ter ajudado! Poderia nos ajudar em uma pesquisa de conhecimento da empresa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1716985617919",
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_1_1716986572858",
+      "previous_sibling": "node_2_1716986539922"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. agora me informe a data do acontecimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717424864705",
+      "context": {
+        "estado": "@estado.value"
+      },
+      "conditions": "@estado",
+      "dialog_node": "node_1_1717501864531"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Informações salvas sobre o ocorrido do dia @sys-date, caso muitas denúncias sejam abertas em $estado, iremos reforçar a frota para uma melhor fiscalização. Para realizar um chamado você deve utilizar nosso site, o chat funciona somente para salvar as informações e utilizá-las como fator de estudo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1717501862803",
+      "conditions": "@sys-date",
+      "dialog_node": "node_1_1717501894961"
+    },
+    {
+      "type": "standard",
+      "title": "@sim-nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, espero ter ajudado! Poderia nos ajudar em uma pesquisa de conhecimento da empresa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716985884058",
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_2_1716986495703",
+      "previous_sibling": "node_9_1716986424094"
+    },
+    {
+      "type": "standard",
+      "title": "@sim-nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual sua outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1716985617919",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_2_1716986539922"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite uma nota de 1 a 10 para o nosso programa!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_2_1716987674071",
+      "previous_sibling": "node_5_1716985072193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Informações salvas sobre o ocorrido do dia @sys-date, caso muitas denúncias sejam abertas em $estado, iremos reforçar a frota para uma melhor fiscalização. Para realizar um chamado você deve utilizar nosso site, o chat funciona somente para salvar as informações e utilizá-las como fator de estudo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717501864531",
+      "conditions": "@sys-date",
+      "dialog_node": "node_2_1717501962052"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, espero ter ajudado! Poderia nos ajudar em uma pesquisa de conhecimento da empresa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716988052606",
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_3_1716988384574",
+      "previous_sibling": "node_8_1716988362134"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Informações salvas sobre o ocorrido do dia @sys-date, caso muitas denúncias sejam abertas em $estado, iremos reforçar a frota para uma melhor fiscalização. Para realizar um chamado você deve utilizar nosso site, o chat funciona somente para salvar as informações e utilizá-las como fator de estudo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1717501580726",
+      "conditions": "@sys-date",
+      "dialog_node": "node_3_1717501637048"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. agora me informe a data do acontecimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1717425423078",
+      "context": {
+        "estado": "@estado.value"
+      },
+      "conditions": "@estado",
+      "dialog_node": "node_3_1717501862803"
+    },
+    {
+      "type": "standard",
+      "title": "@sim-nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual sua outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716985072193",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_4_1716986618543"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado. Por favor, digite sua idade e qual estado você reside."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716986645142",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_4_1716987354663"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. O  modo de atendimento será padrão"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717586747366",
+      "context": {
+        "modo": "null"
+      },
+      "conditions": "@tipo_resposta:padrão",
+      "dialog_node": "node_4_1717587124276",
+      "previous_sibling": "node_6_1717587044233"
+    },
+    {
+      "type": "standard",
+      "title": "Alterar modo COM MODO",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1717587044233"
+      },
+      "conditions": "#mudar-modo && @tipo_resposta",
+      "dialog_node": "node_4_1717587641788",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Dúvida: Espécies",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mais de 10% dos animais marinhos estão em risco de extinção, principalmente devido à pesca excessiva, perda de habitat, poluição e mudanças climáticas. Entre as espécies ameaçadas estão a vaquita, a tartaruga-de-pente, o tubarão-martelo, o peixe-boi-marinho e a baleia-franca-do-sul. Há alguma outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#especies-extinção",
+      "dialog_node": "node_5_1716985072193",
+      "previous_sibling": "node_6_1716988052606"
+    },
+    {
+      "type": "standard",
+      "title": "Descarte inadequado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Isso é muito grave, me informe o estado do ocorrido.\n \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#descarte-inadequado",
+      "dialog_node": "node_5_1717425664232",
+      "previous_sibling": "node_10_1717586747366"
+    },
+    {
+      "type": "standard",
+      "title": "Dúvida: Funcionamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A VP Innovation veio para auxiliar os problemas ambientais, com um site rápido e simples, que serve para denúncia de pescas ilegais, resgate de animais que necessitam e ajuda e descarte de lixo inadequado, para que assim nós, juntos, possamos cuidar do meio ambiente! Há alguma outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#funcionamento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1716988052606",
+      "previous_sibling": "node_7_1716985617919"
+    },
+    {
+      "type": "standard",
+      "title": "Pesquisa conhecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado, nós da VP Innovation agradecemos muito!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1716988441136",
+      "conditions": "@estado && @media-idade-usuarios",
+      "dialog_node": "node_6_1716988486111"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Agora eu irei te responder em $modo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717586747366",
+      "context": {
+        "modo": "@tipo_resposta"
+      },
+      "conditions": "@tipo_resposta:audio || @tipo_resposta:texto",
+      "dialog_node": "node_6_1717587044233"
+    },
+    {
+      "type": "standard",
+      "title": "Dúvida: boas ações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reduzir o uso de plástico e descarte o lixo corretamente, consumir frutos do mar de forma sustentável, economizar água e energia  e ser um consumidor consciente são ótimas ações que ajudam nosso meio ambiente em perigo. Há alguma outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#boas-ações",
+      "dialog_node": "node_7_1716985617919",
+      "previous_sibling": "node_1_1716985884058"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado. Por favor, digite sua idade e qual estado você reside."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1716988384574",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_7_1716988441136"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado. Por favor, digite sua idade e qual estado você reside."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716986495703",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_8_1716987951183"
+    },
+    {
+      "type": "standard",
+      "title": "Pesquisa conhecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado, nós da VP Innovation agradecemos muito!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1716987951183",
+      "conditions": "@estado && @idade",
+      "dialog_node": "node_8_1716987977614"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seria sua dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716988052606",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_8_1716988362134"
+    },
+    {
+      "type": "standard",
+      "title": "Animal resgate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Isso é muito grave, me informe o estado do ocorrido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#animal-perigo",
+      "dialog_node": "node_8_1717425423078",
+      "previous_sibling": "node_5_1717425664232"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. agora me informe a data do acontecimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1717425664232",
+      "context": {
+        "estado": "@estado.value"
+      },
+      "conditions": "@estado",
+      "dialog_node": "node_8_1717501580726"
+    },
+    {
+      "type": "standard",
+      "title": "@sim-nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual sua outra dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716985884058",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_9_1716986424094"
+    },
+    {
+      "type": "standard",
+      "title": "@sim-nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, espero ter ajudado!  Poderia nos ajudar em uma pesquisa de conhecimento da empresa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716985072193",
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_9_1716986645142",
+      "previous_sibling": "node_4_1716986618543"
+    },
+    {
+      "type": "standard",
+      "title": "Pesquisa conhecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado, nós da VP Innovation agradecemos muito!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1716987354663",
+      "conditions": "@estado && @idade",
+      "dialog_node": "node_9_1716987420184"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado. Por favor, digite sua idade e qual estado você reside."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716986572858",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_9_1716987882590"
+    },
+    {
+      "type": "standard",
+      "title": "Pesquisa conhecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado, nós da VP Innovation agradecemos muito!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716987882590",
+      "conditions": "@estado && @idade",
+      "dialog_node": "node_9_1716987897438"
+    },
+    {
+      "type": "standard",
+      "title": "Pesca ilegal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Isso é muito grave, me informe o estado do ocorrido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#pesca-ilegal",
+      "dialog_node": "node_9_1717424864705",
+      "previous_sibling": "node_8_1717425423078"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1717587641788",
+      "dialog_node": "slot_4_1717587940180"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "VPBot Service-dialog"
+}

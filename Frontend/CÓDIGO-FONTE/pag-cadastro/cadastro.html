@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cadastro.css">
+    <link rel="icon" href="../img/logo-vp-innovation-icone.ico" type="image/x-icon">
+    <title>Cadastro VP</title>
+    <script src="./cadastro.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box-cadastro">
+            <h1 class="titulo">CRIAR CONTA</h1>
+            <form id="form-cadastro" action="../pag-boas-vindas/boas-vindas.html" method="get">
+                <div class="div-input">
+                    <input type="text" name="txtCpf" id="idCpf" placeholder="CPF" maxlength="14" autocomplete="off" autofocus>
+                    <p>Mensagem de erro.</p>
+                </div>
+                <div class="div-input">
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="E-mail" autocomplete="off">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <div class="div-input">
+                    <input type="password" name="txtSenha" id="idSenha" placeholder="Crie uma senha">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <div class="div-input">
+                    <input type="password" name="txtConfirmaSenha" id="idConfirmaSenha" placeholder="Confirme sua senha">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <button id="form-btn" type="submit">Cadastrar</button>
+                <div class="divisor"></div>
+                <a href="../pag-login/login.html" title="Já tenho uma conta">Já tenho uma conta</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

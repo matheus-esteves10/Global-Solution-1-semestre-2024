@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./chamado.css">
+    <link rel="icon" href="../img/logo-vp-innovation-icone.ico" type="image/x-icon">
+    <title>Chamados VP</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <a href="../index.html"><img id="logo-vp" src="../img/logo-vp-innovation.png" alt="Logo VP Innovation"></a>
+        <nav>
+            <ul>
+                <li class="link"><a href="../index.html#contato">Contato</a></li>
+                <li class="link"><a href="../index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="box-chamado">
+        <div>
+            <img id="tartaruga-e" src="../img/golfinho-e.png" alt="Ícone Golfinho">
+            <img id="tartaruga-d" src="../img/golfinho-d.png" alt="Ícone Golfinho">
+            <h1 id="titulo-form">CHAMADO VP</h1>
+            <form id="form-chamado" action="../pag-sucesso-chamado/sucesso-chamado.html" method="get">
+                <div class="div-label-input">
+                    <label for="idTipo">Tipo de ocorrência*</label>
+                    <select name="tipo" id="idTipo" required>
+                        <option value="" class="opt-off">Selecione um tipo</option>
+                        <option value="Animal em Perigo">Animal em Perigo</option>
+                        <option value="Pesca Ilegal">Pesca Ilegal</option>
+                        <option value="Descarte Inadequado">Descarte Inadequado de lixo/material tóxico</option>
+                    </select>
+                </div>
+                <div class="div-label-input">
+                    <label for="idDescricao">Descrição*</label>
+                    <textarea name="descricao" id="idDescricao" placeholder="Digite a descrição da ocorrência" resize="none" autocomplete="off" required></textarea>
+                </div>
+                <div class="div-label-input">
+                    <label for="idEstado">Estado*</label>
+                    <select name="estado" id="idEstado" required>
+                        <option value="" class="opt-off">Selecione um estado</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="PR">Paraná</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="SP">São Paulo</option>
+                    </select>
+                </div>
+                <div class="div-label-input">
+                    <label for="idCidade">Cidade*</label>
+                    <input type="text" id="idCidade" placeholder="Digite o nome da cidade" autocomplete="off" required>
+                </div>
+                <div class="div-label-input">
+                    <label for="idBairro">Bairro*</label>
+                    <input type="text" id="idBairro" placeholder="Digite o nome do bairro mais próximo" autocomplete="off" required>
+                </div>
+                <div class="div-label-input">
+                    <label for="idRua">Rua e Número (se possível)</label>
+                    <input type="text" id="idRua" placeholder="Digite o nome da rua e número mais próximo" autocomplete="off">
+                </div>
+                <div class="div-label-input">
+                    <label for="idPtRef">Ponto de Referência*</label>
+                    <input type="text" id="idPtRef" placeholder="Digite mais detalhes sobre o local" autocomplete="off" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
